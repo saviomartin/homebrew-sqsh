@@ -9,7 +9,8 @@ class Sqsh < Formula
   depends_on "ffmpeg"
 
   def install
-    system "npm", "install", "-g", "--prefix", prefix
+    libexec.install Dir["*"]
+    system "npm", "install", "-g", "#{libexec}"
   end
 
   test do
