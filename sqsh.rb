@@ -1,8 +1,8 @@
 class Sqsh < Formula
   desc "Fast media compression for your terminal"
   homepage "https://github.com/saviomartin/sqsh"
-  url "https://registry.npmjs.org/sqsh/-/sqsh-1.0.5.tgz"
-  sha256 "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f"
+  url "https://registry.npmjs.org/sqsh/-/sqsh-1.0.4.tgz"
+  sha256 "8986851c348fe21552a9641b975bec0e02d917ef3abebd38b1bc44b7b2a9b9b2"
   license "MIT"
 
   depends_on "node"
